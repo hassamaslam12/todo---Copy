@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+
+.mainDiv{
+     height: 100vh;
+    width: 100vw; 
+    background: #2866CD;
+    overflow-x: hidden;
+    /* background: linear-gradient(180deg, rgb(38, 120, 207) 27%, rgba(155,212,134,1) 100%); */
+}
+
+.heading{
+    margin-top: 20px;
+    background-color: #fff;
+    text-align: center;
+    color: #2866CD
+}
+
+
+.whiteContainer{
+    width: 80vw;
+    padding: 10px 0px;
+    /* margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 20px; */
+    margin: 20px 10vw 0 10vw;
+     position: relative;
+    /*left: 10vw; */
+    background-color: #fff;
+    width: 80% ;
+    border-radius: 10px;
+    
+}
+
+.todoList ul{
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+.todoList li,.editTextOne{
+    margin: 10px 5px;
+
+    background-color: #C6E1E5;
+    border-radius: 5px;
+    padding: 2px 5px;
+    /* overflow-wrap: break-word; */
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.editTextOne{
+    background-color: #C6f1E5;
+    border: 1px solid #2866CD;
+    box-shadow: 5px 5px 5px black;
+
+}
+
+.added-todo{
+    word-wrap: break-word;
+    overflow-x: auto    ;
+    
+
+}
+
+
+
+.todoList button{
+    font-size: large;
+} 
+
+
+.btn-bg-color{
+background-color: blue;
+color: #fff;
+padding: 2px;
+}
+
+
+.btn-delete-all{
+    position: absolute;
+    right: 10px;
+    padding:  5px 10px;
+    border-radius: 10px;
+}
+
+
+.input{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+
+.input input{
+    min-width: 70%;
+
+}
+
+
+.btn-add{
+    
+    padding:  5px 10px; 
+    border-radius: 10px;
+}
+
+
+
+.mainDivChange{
+    display: none;
+}
+
+
+
+
+.editDiv{
+    display: none;
+}
+
+.editDivChange{
+    position: relative;
+    /* justify-content: center;
+    align-items: center; */
+    /* height: 100vh;
+    width: 100vw; */
+    /* background-image: url('./images/screenshot.jpeg');
+    background-size: cover;
+    filter: blur(8px);
+  -webkit-filter: blur(8px); */
+    
+}
+
+
+
+.bg-image {
+    position:absolute;
+    height: 100vh;
+    width: 100vw
+    ;background-image: url('./images/screenshot.jpeg');
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+.editInput{
+    display: block;
+    /* height: 100%; */
+    /* font-size: 1.5em; */
+    border: 1 px solid red;
+    position: absolute;
+    top: 200px;
+    left: 20%;
+    
+}
+
+
+
+/* 
+@media only screen and (min-width: 600px) {
+    .input{
+        min-width: 60vw;
+    }
+  } */
